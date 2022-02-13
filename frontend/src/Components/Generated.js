@@ -20,7 +20,7 @@ function GeneratedPage({uid, setGeneratedUid}) {
     }
     return(
         <div className="p-2 mt-10 max-w-sm mx-auto  text-center ">
-            <h1 className="text-gray-600 text-xl">🎉🎉Paylink Generated🎉🎉</h1>
+            <h1 className="text-gray-600 text-xl font-semibold">🎉🎉Paylink Generated🎉🎉</h1>
             <div className="bg-gray-100 text-gray-100 text-blue-500 rounded-md p-2 text-xl">
                 {process.env.REACT_APP_FRONTEND+uid}
             </div>

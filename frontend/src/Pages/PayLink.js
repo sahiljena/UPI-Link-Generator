@@ -41,7 +41,7 @@ function Paylink(){
 
     const PayPage = ({name, upi, amt, desc}) =>{
 
-        const upiLink =   `upi://pay?amt=${amt}&cu=INR&pa=${upi}%40add&pn=${name}`;
+        const upiLink =   `upi://pay?am=${amt}&cu=INR&pa=${upi}&pn=${name}`;
         const encodedUpiLink = encodeURIComponent(upiLink);
 
         return (<>
