@@ -1,4 +1,5 @@
 # UPI-Link-Generator
+#### Note : Currently this only works for merchant payment
 ## ✨ Description
 This Web app generates upi payment links for mobiles. On the payment page, it auto detects UPI apps and redirects to them with fixed `UPI ID` and `Amount`<br />
 Try Out : https://paylinky.netlify.app/ <br/>
