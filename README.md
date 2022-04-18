@@ -10,7 +10,7 @@
  
 ## ✨ Description
 This Web app generates upi payment links for mobiles. On the payment page, it auto detects UPI apps and redirects to them with fixed `UPI ID` and `Amount`<br />
-Try Out : https://paylinky.netlify.app/ <br/>
+Try Out :  **https://paylinky.netlify.app** <br/>
 
 ## 🛠️ Tech Stack
 - React.js for Frontend
@@ -18,7 +18,7 @@ Try Out : https://paylinky.netlify.app/ <br/>
 - MonogDB for Database
 - Tailwind CSS for frontend UI
 ## 🔥 Demo
-https://paylinky.netlify.app/ <br/>
+**https://paylinky.netlify.app/** <br/>
 
 📂 Project Organization
 ------------
