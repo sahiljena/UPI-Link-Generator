@@ -39,9 +39,12 @@ function Paylink(){
         fetchLink();
     },[])
 
-    const PayPage = ({name, upi, amt, desc}) =>{
+    const PayPage = ({name, upi, amt, desc, tr, tid}) =>{
 
-        const upiLink =   `upi://pay?am=${amt}&cu=INR&pa=${upi}&pn=${name}`;
+        const deepLink = `upi://pay?tr=${tr}&tid=${tid}&mc=1234&pa=${upi}&pn=${name}&am=${amt}&cu=INR`
+        // console.log(deepLink);
+        // const upiLink =   `upi://pay?am=${amt}&cu=INR&pa=${upi}&pn=${name}`;
+        const upiLink = deepLink;
         const encodedUpiLink = encodeURIComponent(upiLink);
 
         return (<>
@@ -77,11 +80,14 @@ function Paylink(){
     }
 
     if(!loading && error[0]===false){
+        // console.log(result);
         return <PayPage 
                     name={result.name} 
                     upi={result.upiid}
                     amt={result.amount}
                     desc={result.desc}
+                    tr={result.uid}
+                    tid={result._id}
                 />
     }
     if(error[0]===true){
