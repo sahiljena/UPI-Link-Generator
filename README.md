@@ -1,7 +1,16 @@
 # UPI-Link-Generator
+#### Note : Currently this only works for merchant UPI ID's
+<table>
+  <tr>
+    <td valign="top"><img src="https://i.ibb.co/z5mDnNk/Whats-App-Image-2022-02-13-at-9-21-16-PM-2.jpg" width="200"/></td>
+    <td valign="top"><img src="https://i.ibb.co/NjX0qH4/Whats-App-Image-2022-02-13-at-9-21-16-PM.jpg" width="200"/></td>
+    <td valign="top"><img src="https://i.ibb.co/HnxgDPc/Whats-App-Image-2022-02-13-at-9-21-16-PM-1.jpg" width="200"/></td>
+  </tr>
+ </table>
+ 
 ## ✨ Description
 This Web app generates upi payment links for mobiles. On the payment page, it auto detects UPI apps and redirects to them with fixed `UPI ID` and `Amount`<br />
-Try Out : https://paylinky.netlify.app/ <br/>
+Try Out :  **https://paylinky.netlify.app** <br/>
 
 ## 🛠️ Tech Stack
 - React.js for Frontend
@@ -9,7 +18,7 @@ Try Out : https://paylinky.netlify.app/ <br/>
 - MonogDB for Database
 - Tailwind CSS for frontend UI
 ## 🔥 Demo
-https://paylinky.netlify.app/ <br/>
+**https://paylinky.netlify.app/** <br/>
 
 📂 Project Organization
 ------------
