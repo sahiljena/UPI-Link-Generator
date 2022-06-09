@@ -41,7 +41,7 @@ function Paylink(){
 
     const PayPage = ({name, upi, amt, desc, tr, tid}) =>{
 
-        const deepLink = `upi://pay?tr=${tr}&tid=${tid}&mc=1234&pa=${upi}&pn=${name}&am=${amt}&cu=INR`
+        const deepLink = `upi://pay?pa=${upi}&pn=${name}&am=${amt}&cu=INR`
         // console.log(deepLink);
         // const upiLink =   `upi://pay?am=${amt}&cu=INR&pa=${upi}&pn=${name}`;
         const upiLink = deepLink;
