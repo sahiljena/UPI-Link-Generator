@@ -9,6 +9,7 @@ function PayForm(){
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [upi, setUpi] = useState("");
+    const [merchantCode, setMerchantCode] = useState("");
     const [amt, setAmt] = useState("");
 
     const [error, setError] = useState(false);
@@ -184,6 +185,17 @@ function PayForm(){
                         onChange={(e)=>{setUpi(e.target.value)}}
                 />
                 {upiError[0] &&<ErrorMessage message={upiError[1]}/>}
+            </div>
+            <div className="mb-4">
+                <label className="block text-gray-500 text-base font-semibold mb-2" for="name">
+                    Merchant Code
+                </label>
+                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+                        type="text" 
+                        placeholder="Merchant Code"
+                        value={merchantCode}
+                        onChange={(e)=>{setMerchantCode(e.target.value)}}
+                />
             </div>
             <div className="mb-4">
                 <label className="block text-gray-500 text-base font-semibold mb-2" for="name">

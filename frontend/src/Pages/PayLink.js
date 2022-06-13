@@ -66,10 +66,10 @@ function Paylink(){
                 <div className="mt-4">
                     <h2 className="font-semibold text-md text-gray-500">Amount : <span className="text-xl text-blue-700 font-semibold">Rs. {amt}</span></h2>
                 </div>
-                <div className="mt-4 text-center text-xs">
+                {/* <div className="mt-4 text-center text-xs">
                     <img className="m-auto w-20" src={`https://api.qrserver.com/v1/create-qr-code/?data=${encodedUpiLink}&amp;size=50x50&amp;bgcolor=gray`} />
                     Scan and Pay
-                </div>
+                </div> */}
                 <div className="mt-10 text-center">
                     <a className="bg-blue-700 text-gray-100 p-2 rounded-md font-semibold" href={upiLink}>Pay with UPI ⚡</a>
                 </div>
